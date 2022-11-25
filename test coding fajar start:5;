@@ -1,0 +1,12 @@
+def simple_function(n):
+    for i in range(1, n + 1):
+        j = 1
+        while j <= n + 4:
+            print(j, end='')
+            if i == j:
+                print("**", end='')
+                j += 2
+            j += 1
+        print("")
+n = int(input("input n: "))
+simple_function(n)
